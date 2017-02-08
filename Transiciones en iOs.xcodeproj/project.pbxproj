@@ -12,6 +12,8 @@
 		FB02A5C31E4A9D0900A5F3B9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB02A5C11E4A9D0900A5F3B9 /* Main.storyboard */; };
 		FB02A5C51E4A9D0900A5F3B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB02A5C41E4A9D0900A5F3B9 /* Assets.xcassets */; };
 		FB02A5C81E4A9D0900A5F3B9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB02A5C61E4A9D0900A5F3B9 /* LaunchScreen.storyboard */; };
+		FB02A5D21E4AA21100A5F3B9 /* RegresarShowDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB02A5D11E4AA21100A5F3B9 /* RegresarShowDetailViewController.swift */; };
+		FB47D7A11E4AA6EB00E1136B /* ModallyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB47D7A01E4AA6EB00E1136B /* ModallyViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		FB02A5C41E4A9D0900A5F3B9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FB02A5C71E4A9D0900A5F3B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FB02A5C91E4A9D0900A5F3B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB02A5D11E4AA21100A5F3B9 /* RegresarShowDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegresarShowDetailViewController.swift; sourceTree = "<group>"; };
+		FB47D7A01E4AA6EB00E1136B /* ModallyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModallyViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				FB02A5C41E4A9D0900A5F3B9 /* Assets.xcassets */,
 				FB02A5C61E4A9D0900A5F3B9 /* LaunchScreen.storyboard */,
 				FB02A5C91E4A9D0900A5F3B9 /* Info.plist */,
+				FB02A5D11E4AA21100A5F3B9 /* RegresarShowDetailViewController.swift */,
+				FB47D7A01E4AA6EB00E1136B /* ModallyViewController.swift */,
 			);
 			path = "Transiciones en iOs";
 			sourceTree = "<group>";
@@ -138,6 +144,8 @@
 			files = (
 				FB02A5C01E4A9D0900A5F3B9 /* ViewController.swift in Sources */,
 				FB02A5BE1E4A9D0900A5F3B9 /* AppDelegate.swift in Sources */,
+				FB02A5D21E4AA21100A5F3B9 /* RegresarShowDetailViewController.swift in Sources */,
+				FB47D7A11E4AA6EB00E1136B /* ModallyViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,6 +307,7 @@
 				FB02A5CE1E4A9D0900A5F3B9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
